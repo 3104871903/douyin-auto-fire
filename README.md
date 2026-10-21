@@ -181,11 +181,11 @@ dry_run = false
 
 ```yaml
 schedule:
-  - cron: "0 0 * * *"
+  - cron: "21 5 * * *"
     timezone: "Asia/Shanghai"
 ```
 
-表示 **每天北京时间 00:00** 自动运行。
+表示 **每天北京时间 05:21** 自动运行。
 
 例如改成每天北京时间 08:30：
 
